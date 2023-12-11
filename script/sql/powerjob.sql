@@ -1,3 +1,4 @@
+-- Active: 1698718273789@@8.130.66.24@3306@powerjob
 -- ----------------------------
 -- Table structure for pj_app_info
 -- ----------------------------
@@ -16,7 +17,7 @@ CREATE TABLE `pj_app_info`  (
 -- ----------------------------
 -- Records of pj_app_info
 -- ----------------------------
-INSERT INTO `pj_app_info` VALUES (1, 'ruoyi-worker', '127.0.0.1:10010', '2023-06-13 16:32:59.263000', '2023-07-04 17:25:49.798000', '123456');
+INSERT INTO `pj_app_info` VALUES (1, 'wuzhi-worker', '127.0.0.1:10010', '2023-06-13 16:32:59.263000', '2023-07-04 17:25:49.798000', '123456');
 
 -- ----------------------------
 -- Table structure for pj_container_info

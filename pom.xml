@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.dromara</groupId>
-    <artifactId>ruoyi-vue-plus</artifactId>
+    <artifactId>wuzhi-vue-plus</artifactId>
     <version>${revision}</version>
 
-    <name>RuoYi-Vue-Plus</name>
-    <url>https://gitee.com/dromara/RuoYi-Vue-Plus</url>
-    <description>RuoYi-Vue-Plus多租户管理系统</description>
+    <name>wuzhi-Vue-Plus</name>
+    <url>https://gitee.com/dromara/wuzhi-Vue-Plus</url>
+    <description>wuzhi-Vue-Plus多租户管理系统</description>
 
     <properties>
         <revision>5.1.1</revision>
@@ -120,7 +120,7 @@
             <!-- common 的依赖配置-->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-bom</artifactId>
+                <artifactId>wuzhi-common-bom</artifactId>
                 <version>${revision}</version>
                 <type>pom</type>
                 <scope>import</scope>
@@ -317,25 +317,37 @@
 
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-system</artifactId>
+                <artifactId>wuzhi-system</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-job</artifactId>
+                <artifactId>wuzhi-job</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-generator</artifactId>
+                <artifactId>wuzhi-generator</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-demo</artifactId>
+                <artifactId>wuzhi-demo</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dromara</groupId>
+                <artifactId>wuzhi-foxshop</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dromara</groupId>
+                <artifactId>wuzhi-foxshoptwo</artifactId>
                 <version>${revision}</version>
             </dependency>
 
@@ -343,10 +355,10 @@
     </dependencyManagement>
 
     <modules>
-        <module>ruoyi-admin</module>
-        <module>ruoyi-common</module>
-        <module>ruoyi-extend</module>
-        <module>ruoyi-modules</module>
+        <module>wuzhi-admin</module>
+        <module>wuzhi-common</module>
+        <module>wuzhi-extend</module>
+        <module>wuzhi-modules</module>
     </modules>
     <packaging>pom</packaging>
 

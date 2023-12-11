@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DromaraApplication<wuzhi-admin>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.dromara.DromaraApplication",
+            "projectName": "wuzhi-admin",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
